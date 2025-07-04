@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hero
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -12,13 +14,13 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Truck
+  - Monster_L0
+  - Monster_L1
+  - Monster_L2
+  - Ground_L0
+  - Ground_L1
+  - Ground_L2
   - 
   - 
   - 
@@ -40,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sort_L2
+    uniqueID: 3028511311
+    locked: 0
+  - name: Sort_L1
+    uniqueID: 475485519
+    locked: 0
+  - name: Sort_L0
+    uniqueID: 1641524531
+    locked: 0
+  - name: UI
+    uniqueID: 2122465293
     locked: 0
